@@ -1,0 +1,5 @@
+getStaticProps - used for static data, that can be fetched from server
+getServerSideProps - used for dynamic data, that can be fetched from server
+
+Always use getServerSideProps if you are using API calls where values are updated all the time.
+getStaticProps is run only once at build time and it won't be changed on page reload.

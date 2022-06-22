@@ -1,0 +1,4 @@
+<SomeComponent
+  onNameChange={handleNameChange}
+  onFormReset={handleFormReset}
+/>

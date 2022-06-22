@@ -1,27 +1,31 @@
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: #34495e;
 }
-.login-box{
+
+.login-box {
   width: 400px;
   padding: 80px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  background: rgba(25,25,25,0.7);
+  transform: translate(-50%, -50%);
+  background: rgba(25, 25, 25, 0.7);
   text-align: center;
   border-radius: 10px;
 }
-.login-box h1{
+
+.login-box h1 {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
 }
-.login-box input[type = "text"],.login-box input[type = "password"]{
-  border:0;
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  border: 0;
   background: none;
   display: block;
   margin: 20px auto;
@@ -34,12 +38,15 @@ body{
   border-radius: 24px;
   transition: 0.25s;
 }
-.login-box input[type = "text"]:focus,.login-box input[type = "password"]:focus{
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
   width: 280px;
   border-color: #2ecc71;
 }
-.login-box input[type = "submit"]{
-  border:0;
+
+.login-box input[type="submit"] {
+  border: 0;
   background: none;
   display: block;
   margin: 20px auto;
@@ -52,6 +59,7 @@ body{
   transition: 0.25s;
   cursor: pointer;
 }
-.login-box input[type = "submit"]:hover{
+
+.login-box input[type="submit"]:hover {
   background: #2ecc71;
 }
