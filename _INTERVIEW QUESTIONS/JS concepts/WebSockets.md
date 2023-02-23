@@ -10,3 +10,7 @@ WebSockets, on the other hand, allow for sending message-based data, similar to 
 WebSocket uses HTTP as the initial transport mechanism, but keeps the TCP connection alive 
 after the HTTP response is received so that it can be used for sending messages between client and server. 
 WebSockets allow us to build “real-time” applications without the use of long-polling.
+
+We can use built-in functionality of JS to interact with WS, or we can use libraries as Socket.IO
+WebSocket is a technology that enables two-way realtime communication between client and server. 
+In contrast, Socket.IO is a library that provides an abstraction layer on top of WebSockets, making it easier to create realtime applications.
