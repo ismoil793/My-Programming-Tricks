@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "tsc": "./node_modules/typescript/bin/tsc"
+  }
+}
