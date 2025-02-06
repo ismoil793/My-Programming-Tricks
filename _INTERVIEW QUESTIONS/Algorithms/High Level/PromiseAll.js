@@ -25,6 +25,7 @@ const promises = [
     slowPromise,
     Promise.resolve('second'),
     Promise.resolve('last'),
+    // Promise.reject('reject')
 ]
 
-promiseAll(promises).then(console.log)
+promiseAll(promises).then(console.log).catch(console.log)
